@@ -14,7 +14,7 @@ public class KnifeLogic : MonoBehaviour
     {
         Knife = gameObject;
         knifeRB = GetComponent<Rigidbody>();
-        forceVector = new Vector3(0, 300, 140);
+        forceVector = new Vector3(0, 300, 140) * 1.1f;
     }
 
 
@@ -38,15 +38,15 @@ public class KnifeLogic : MonoBehaviour
     void AddKnifeForce()
     {
 
-        Vector3 worldForce = forceVector * 1.1f;
+       
 
         if (Time.time - lastImpulseTime >= impulseCooldown)
         {
             knifeRB.linearVelocity = new Vector3(0, 0, knifeRB.linearVelocity.z / 20);
             
 
-            knifeRB.AddForce(worldForce * Time.deltaTime, ForceMode.Impulse);
-            knifeRB.AddTorque(760 * Time.deltaTime, 0, 0);
+            knifeRB.AddForce(forceVector * Time.deltaTime, ForceMode.Impulse);
+            knifeRB.AddTorque(380 * Time.deltaTime, 0, 0);
             lastImpulseTime = Time.time; 
         }
     }
