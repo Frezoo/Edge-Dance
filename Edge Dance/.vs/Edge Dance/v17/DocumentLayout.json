@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\knifelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knifelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\scripts\\glasslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\glasslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\scripts\\knifelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knifelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,26 +26,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T11:45:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "KnifeLogic.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\KnifeLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KnifeLogic.cs",
               "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\KnifeLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\KnifeLogic.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCQAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T11:02:14.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GlassLogic.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\GlassLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GlassLogic.cs",
               "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\GlassLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\GlassLogic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T10:26:53.239Z",
               "EditorCaption": ""
