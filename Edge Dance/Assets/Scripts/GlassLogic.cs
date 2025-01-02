@@ -4,23 +4,23 @@ using UnityEngine;
 public class GlassLogic : MonoBehaviour
 {
     public GameObject FirstHalf;
-    private Rigidbody FirstHalfRB;
+    private Rigidbody firstHalfRB;
 
     public GameObject SecondHalf;
-    private Rigidbody SecondHalfRB;
+    private Rigidbody secondHalfRB;
 
     void Start()
     {
         FirstHalf = transform.GetChild(0).gameObject;
         SecondHalf = transform.GetChild(1).gameObject;
-        FirstHalfRB = FirstHalf.GetComponent<Rigidbody>();
-        SecondHalfRB = SecondHalf.GetComponent<Rigidbody>();
+        firstHalfRB = FirstHalf.GetComponent<Rigidbody>();
+        secondHalfRB = SecondHalf.GetComponent<Rigidbody>();
     }
 
     private void DisableKinematicRigibody()
     {
-        FirstHalfRB.isKinematic = false;
-        SecondHalfRB.isKinematic = false;
+        firstHalfRB.isKinematic = false;
+        secondHalfRB.isKinematic = false;
     }
 
     private void OnTriggerEnter(Collider collision)
