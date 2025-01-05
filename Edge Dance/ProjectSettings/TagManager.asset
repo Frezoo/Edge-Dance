@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - Knife
+  - Glass
+  - Apple
+  - GoldGlass
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
   layers:
   - Default
   - TransparentFX
@@ -13,9 +21,9 @@ TagManager:
   - Water
   - UI
   - Ground
-  - Glass
+  - CanCatch
   - Knife
-  - 
+  - Finish
   - 
   - 
   - 

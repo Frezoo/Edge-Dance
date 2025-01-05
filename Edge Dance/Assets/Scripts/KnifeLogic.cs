@@ -14,6 +14,7 @@ public class KnifeLogic : MonoBehaviour
     public float impulseCooldown = 0.1f;
     private float lastImpulseTime = 0f;
     private bool addKnifeForce = false;
+    private bool addHalfKnifeForce = false;
     private float score;
 
      void Awake()
@@ -32,10 +33,14 @@ public class KnifeLogic : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             addKnifeForce = true;
             
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            addHalfKnifeForce = true;
         }
     }
     private void FixedUpdate()
@@ -45,6 +50,12 @@ public class KnifeLogic : MonoBehaviour
             AddKnifeForce();
             addKnifeForce = false;
         }
+        if (addHalfKnifeForce)
+        {
+            AddHalfKnifeForce();
+            addHalfKnifeForce= false;
+        }
+
 
     }
 
@@ -59,11 +70,31 @@ public class KnifeLogic : MonoBehaviour
             knifeAudio.Play();
         }
     }
+    void AddHalfKnifeForce()
+    {
+        if (Time.time - lastImpulseTime >= impulseCooldown)
+        {
+            knifeRB.linearVelocity = new Vector3(0, 0, knifeRB.linearVelocity.z / 20);
+            knifeRB.AddForce(forceVector / 1.5f * Time.deltaTime, ForceMode.Impulse);
+            knifeRB.AddTorque(1080 * Time.deltaTime, 0, 0);
+            lastImpulseTime = Time.time;
+            knifeAudio.Play();
+        }
+    }
+
 
     public void UpdateScore(float Value)
     {
         score += Value;
         ScoreBar.text = score.ToString();
     }
-
+    public void MultiplyeScore(float Value)
+    {
+        score *= Value;
+        UpdateScore(0);
+    }
+    public float GetScore()
+    {
+        return score;
+    }
 }
