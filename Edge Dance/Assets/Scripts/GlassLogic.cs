@@ -1,4 +1,5 @@
 using Unity.VisualScripting;
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class GlassLogic : MonoBehaviour
@@ -32,6 +33,7 @@ public class GlassLogic : MonoBehaviour
         {
             DisableKinematicRigibody();
             collision.gameObject.GetComponent<KnifeLogic>().UpdateScore(Value);
+            gameObject.GetComponent<BoxCollider>().isTrigger = false;
         }
     }
 }

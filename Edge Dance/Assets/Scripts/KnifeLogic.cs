@@ -33,7 +33,7 @@ public class KnifeLogic : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(1))
         {
             addKnifeForce = true;
             

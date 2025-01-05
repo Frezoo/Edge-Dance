@@ -30,6 +30,7 @@ public class FinishLogic : MonoBehaviour
         {
             gameObject.GetComponent<MeshRenderer>().material = BadMaterial;
         }
+        Coefs[int.Parse(gameObject.tag)-1] = randomValue;
     }
 
 
