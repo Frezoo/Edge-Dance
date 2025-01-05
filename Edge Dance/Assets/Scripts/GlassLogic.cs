@@ -9,6 +9,8 @@ public class GlassLogic : MonoBehaviour
     public GameObject SecondHalf;
     private Rigidbody secondHalfRB;
 
+    [SerializeField] private float Value;
+
     void Start()
     {
         FirstHalf = transform.GetChild(0).gameObject;
@@ -29,7 +31,7 @@ public class GlassLogic : MonoBehaviour
         if (collision.CompareTag("Knife"))
         {
             DisableKinematicRigibody();
-
+            collision.gameObject.GetComponent<KnifeLogic>().UpdateScore(Value);
         }
     }
 }
