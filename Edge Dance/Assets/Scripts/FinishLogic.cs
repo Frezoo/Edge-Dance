@@ -36,21 +36,24 @@ public class FinishLogic : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        maxScore = PlayerPrefs.GetFloat("MaxScore");
         if (other.CompareTag("Knife"))
         {   
             other.gameObject.GetComponent<KnifeLogic>().MultiplyeScore(Coefs[int.Parse(gameObject.tag) - 1]);
-            currentScore = other.gameObject.GetComponent<KnifeLogic>().GetScore();
-            if (currentScore > maxScore)
-            {
-                maxScore = currentScore;
-                PlayerPrefs.SetFloat("MaxScore", maxScore);
-            }
-            finishPanel.SetActive(true);
-            Time.timeScale = 0;
-            ScoreText.text = $"Score:{currentScore}";
-            MaxScoreText.text = $"Max score:{maxScore}";
-
+            EnableFinishPanel(other.GetComponent<KnifeLogic>());
         }
+    }
+    public void EnableFinishPanel(KnifeLogic knifeLogic)
+    {
+        currentScore = knifeLogic.GetScore();
+        maxScore = PlayerPrefs.GetFloat("MaxScore");
+        if (currentScore > maxScore)
+        {
+            maxScore = currentScore;
+            PlayerPrefs.SetFloat("MaxScore", maxScore);
+        }
+        finishPanel.SetActive(true);
+        Time.timeScale = 0;
+        ScoreText.text = $"Score:{currentScore}";
+        MaxScoreText.text = $"Max score:{maxScore}";
     }
 }

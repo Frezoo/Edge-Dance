@@ -11,7 +11,7 @@ public class GlassLogic : MonoBehaviour
     private Rigidbody secondHalfRB;
 
     [SerializeField] private float Value;
-
+    private bool isTrigger = true;
     void Start()
     {
         FirstHalf = transform.GetChild(0).gameObject;
@@ -28,12 +28,12 @@ public class GlassLogic : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        print("GetTrigger");
-        if (collision.CompareTag("Knife"))
+        if (collision.CompareTag("Knife") && isTrigger)
         {
             DisableKinematicRigibody();
             collision.gameObject.GetComponent<KnifeLogic>().UpdateScore(Value);
-            gameObject.GetComponent<BoxCollider>().isTrigger = false;
+            isTrigger = false;
+            
         }
     }
 }

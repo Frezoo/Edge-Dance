@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class KnifeLogic : MonoBehaviour
 {
@@ -12,10 +13,18 @@ public class KnifeLogic : MonoBehaviour
     public TextMeshProUGUI ScoreBar;
 
     public float impulseCooldown = 0.1f;
+    public float shortImpulseCooldown;
     private float lastImpulseTime = 0f;
+    private float lastHalfImpulseTime = 0f;
+
     private bool addKnifeForce = false;
     private bool addHalfKnifeForce = false;
     private float score;
+    
+
+    public Color ReadyColor;
+    public Color ReloadColor;
+    public Image ColdownImage;
 
      void Awake()
     {
@@ -42,6 +51,8 @@ public class KnifeLogic : MonoBehaviour
         {
             addHalfKnifeForce = true;
         }
+        ColdownImage.fillAmount = Mathf.Clamp((Time.time - lastHalfImpulseTime) / shortImpulseCooldown, 0, 1);
+        ColdownImage.color = ColdownImage.fillAmount == 1 ? ReadyColor : ReloadColor;
     }
     private void FixedUpdate()
     {
@@ -72,12 +83,12 @@ public class KnifeLogic : MonoBehaviour
     }
     void AddHalfKnifeForce()
     {
-        if (Time.time - lastImpulseTime >= impulseCooldown)
+        if (Time.time - lastHalfImpulseTime >= shortImpulseCooldown)
         {
             knifeRB.linearVelocity = new Vector3(0, 0, knifeRB.linearVelocity.z / 20);
             knifeRB.AddForce(forceVector / 1.5f * Time.deltaTime, ForceMode.Impulse);
             knifeRB.AddTorque(1080 * Time.deltaTime, 0, 0);
-            lastImpulseTime = Time.time;
+            lastHalfImpulseTime = Time.time;
             knifeAudio.Play();
         }
     }
