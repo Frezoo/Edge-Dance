@@ -3,6 +3,11 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform KnfieControllPoint;
+
+    private void Start()
+    {
+        KnfieControllPoint = GetComponent<Inizializator>().CurrentKnife.transform;
+    }
     void Update()
     {
         if(KnfieControllPoint.position.z + 2 <= 103.4)

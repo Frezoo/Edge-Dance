@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\pausepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\scripts\\traplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\traplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\glassesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\glassesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\scripts\\inizializator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inizializator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\scripts\\knifelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|e:\\unity\\gitprojects\\edge-dance\\edge dance\\assets\\traplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\traplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\glasslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\glasslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\pausepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938E0ECE-9F7E-3F7C-74A5-3E77E5741FE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\TrapLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TrapLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "TrapLogic.cs",
+              "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\TrapLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TrapLogic.cs",
+              "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\TrapLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TrapLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:35:50.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inizializator.cs",
+              "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\Inizializator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inizializator.cs",
+              "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\Inizializator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inizializator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:22:58.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TrapLogic.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\TrapLogic.cs",
               "RelativeDocumentMoniker": "Assets\\TrapLogic.cs",
@@ -59,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FinishLogic.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\FinishLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FinishLogic.cs",
@@ -67,37 +101,37 @@
               "RelativeToolTip": "Assets\\Scripts\\FinishLogic.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T18:46:26.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T18:46:26.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PausePanel.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\PausePanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PausePanel.cs",
               "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\PausePanel.cs",
               "RelativeToolTip": "Assets\\Scripts\\PausePanel.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAwD8AAAA0AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBIAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T17:34:25.303Z"
+              "WhenOpened": "2025-01-05T17:34:25.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GlassesGenerator.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\GlassesGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GlassesGenerator.cs",
               "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\GlassesGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\GlassesGenerator.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wCEAAAA7AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T08:14:40.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Main menu.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\Main menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Main menu.cs",
@@ -105,36 +139,38 @@
               "RelativeToolTip": "Assets\\Scripts\\Main menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:15:03.372Z"
+              "WhenOpened": "2025-01-03T16:15:03.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "CameraController.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T11:45:08.803Z"
+              "WhenOpened": "2025-01-02T11:45:08.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "KnifeLogic.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\KnifeLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KnifeLogic.cs",
               "ToolTip": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\KnifeLogic.cs",
               "RelativeToolTip": "Assets\\Scripts\\KnifeLogic.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDYAAABVAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwFAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T11:02:14.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "GlassLogic.cs",
               "DocumentMoniker": "E:\\Unity\\GitProjects\\Edge-Dance\\Edge Dance\\Assets\\Scripts\\GlassLogic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GlassLogic.cs",
@@ -142,8 +178,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GlassLogic.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAxwBYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T10:26:53.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T10:26:53.239Z"
             }
           ]
         }

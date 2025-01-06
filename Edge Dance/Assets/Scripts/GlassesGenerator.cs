@@ -12,7 +12,7 @@ public class GlassesGenerator : MonoBehaviour
     [SerializeField] private float spawnInterval;
 
     public List<Vector3> ObjPositions = new List<Vector3>();
-    public List<GameObject> CatchObjects = new List<GameObject>();
+    public List<GameObject> Objects = new List<GameObject>();
 
     private void Awake()
     {
@@ -29,17 +29,17 @@ public class GlassesGenerator : MonoBehaviour
             if (objectChance > 0f && objectChance <= 0.01f)
             {
                 objectChance = 2;
-                CatchObjects.Add((GameObject)Instantiate(CanCatchOBJ[(int)objectChance], spawnPoint, CanCatchOBJ[(int)objectChance].transform.rotation));
+                Objects.Add((GameObject)Instantiate(CanCatchOBJ[(int)objectChance], spawnPoint, CanCatchOBJ[(int)objectChance].transform.rotation));
             }
             if (objectChance > 0.1f && objectChance <= 0.22f)
             {
                 int trapNumber = Random.Range(0, 2);
-                Instantiate(TrapsOBJ[trapNumber], spawnPoint - new Vector3(0,0.4f,0), TrapsOBJ[trapNumber].transform.rotation);
+                Objects.Add((GameObject)Instantiate(TrapsOBJ[trapNumber], spawnPoint - new Vector3(0,0.4f,0), TrapsOBJ[trapNumber].transform.rotation));
             }
             else
             {
                 objectChance = (int)Random.Range(0, 2);
-                CatchObjects.Add((GameObject)Instantiate(CanCatchOBJ[(int)objectChance], spawnPoint, CanCatchOBJ[(int)objectChance].transform.rotation));
+                Objects.Add((GameObject)Instantiate(CanCatchOBJ[(int)objectChance], spawnPoint, CanCatchOBJ[(int)objectChance].transform.rotation));
             }
  
             ObjPositions.Add(spawnPoint);
@@ -49,10 +49,10 @@ public class GlassesGenerator : MonoBehaviour
         foreach (Vector3 posZ in ObjPositions)
         {
             secondRowObjectNumber++;
-            if (Random.Range(0f, 1f) < 0.15f && (CatchObjects[secondRowObjectNumber].CompareTag("Glass") || CatchObjects[secondRowObjectNumber].CompareTag("GoldGlass")))
+            if (Random.Range(0f, 1f) < 0.15f && (Objects[secondRowObjectNumber].CompareTag("Glass") || Objects[secondRowObjectNumber].CompareTag("GoldGlass")))
             {
                 Instantiate(CanCatchOBJ[0], new Vector3(posZ.x, 2.178f, posZ.z), CanCatchOBJ[0].transform.rotation);
-                print(CatchObjects[secondRowObjectNumber].tag  + " " + CatchObjects[secondRowObjectNumber].name);
+                print(Objects[secondRowObjectNumber].tag  + " " + Objects[secondRowObjectNumber].name);
             }
         }
 

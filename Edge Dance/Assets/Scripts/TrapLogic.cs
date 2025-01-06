@@ -16,7 +16,7 @@ public class TrapLogic : MonoBehaviour
         if (other.gameObject.tag == "Knife") // если у ножа правильный тег
         {
             Debug.Log("Knife entered trigger, executing code");
-            finishLogic.EnableFinishPanel(GameObject.Find("Knife").GetComponent<KnifeLogic>());
+            finishLogic.EnableFinishPanel(other.GetComponent<KnifeLogic>());
         }
         
     }

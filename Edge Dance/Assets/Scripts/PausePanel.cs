@@ -16,9 +16,11 @@ public class PausePanel : MonoBehaviour
 
     void Start()
     {
+        AudioEffect = gameObject.GetComponent<Inizializator>().CurrentKnife.GetComponent<AudioSource>();
         pausePanel.SetActive(false);  // Устанавливаем панель паузы в неактивное состояние.
         LoadVolume();
         UpdateVolume();
+        
         VolumeSlider.onValueChanged.AddListener(OnVolumeChanged);
     }
 
